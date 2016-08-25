@@ -1,0 +1,50 @@
+/*
+ * General color throughout
+ */
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+a:link, a:visited {color: #1B4965;}
+.content h3, .subcat { border-bottom-color: #CAE9FF;}
+
+
+/*
+	* first section and all elements
+	*/
+#intro h1 {color: #1B4965;}
+
+	#contact {
+		background-color: #1B4965;
+		border-bottom-color: #1B4965;
+	}
+	#contact  a:link {color: #FFFFFF;}
+	#contact a:visited {color: #FFFFFF;}
+
+	header h2 {color: #62B6CB;}
+	header .c1, .c2, .c3  {
+		background: -moz-linear-gradient(top, rgba(27,73,101,0.59) 0%, rgba(98,182,203,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(27,73,101,0.59) 0%,rgba(98,182,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(27,73,101,0.59) 0%,rgba(98,182,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#961b4965', endColorstr='#62b6cb',GradientType=0 ); /* IE6-9 */
+	}
+
+	#info {background-color: #62B6CB;}
+
+
+/*
+ * second section
+ */	
+#experience .content span {color: #1B4965;}
+
+
+/*
+ * third section
+ */	
+#education .content span {color: #62B6CB;}
+
+/*
+ * fourth section
+ */	
+#skills .content span {color: #1B4965;}
+
