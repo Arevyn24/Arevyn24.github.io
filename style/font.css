@@ -1,56 +1,39 @@
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 16pt;
+	font-size: 18pt;
 }
 
-a:link, a:visited, a:hover a:active {font-weight: bold;}
+h1, h3 {font-family: 'Lobster', cursive;}
 
-h1, #contact h2 , h3 {font-family: 'Lobster', cursive;}
+#contact {font-family: 'Lobster', cursive; }
+#contact a:link, a:visited {	text-decoration: none;}
+#contact * {font-size: 25pt; font-weight: lighter;}
 
-#contact a:link, a:visited {
-	text-decoration: none;
-}
-
-
-span {
-	font-weight: bold;
-}
-
-#contact * {font-size: 30px;}
-
-#contact h2 {
-	letter-spacing: 0;
-	font-size: 33px;
-	font-weight: lighter;
-}
-
-#intro h1 {font-size: 50pt;}
-
-#info {font-size: 18pt;}
+h1 {font-size: 50pt;}
 
 header h2 {
 	font-size: 22pt;
 	letter-spacing: .3em;
 }
 
-.content h3 {
+h3 {
 	font-size: 2.7em;
 	border-bottom: 4px solid;
 	letter-spacing: .1em;
 }
 
-.content h4 {
+h4 {
 	font-size: 20pt;
-	font-weight: lighter;
+	letter-spacing: .05em;
+	font-weight: bolder;
 }
 
-.content h5 {
+h5 {
 	font-size: 18pt;
 	font-weight: lighter;
 }
 
-.content h6 {
+h6 {
 	font-size: 17pt;
 	font-weight: lighter;
-}
-	
+}	

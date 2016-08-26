@@ -23,7 +23,6 @@ section {
 	border-bottom: 4px solid;
 	width: 100%;
 }
-
 #contact ul {
 	list-style-type: none;
 	margin-left: 0;
@@ -31,7 +30,6 @@ section {
 	height: 100%;
 	width: 100%;
 }
-
 #contact ul li {
 	display: inline;
 	height: 100%;
@@ -40,7 +38,6 @@ section {
 	transition:background-color 1.5s;
 	border-radius: 3px 3px 0px 0px;
 }
-
 #contact ul li:hover {
 	background-color: #1B4965;
 	transition: background-color 1.5s;
@@ -51,14 +48,11 @@ header {
 	top: 25%;
 	width: 90%;
 	height: auto;
-
 }
-
 header table {
 	width: 100%;
 	height: auto;
 }
-
 header .c1 {
 	height: 60px;
 	width: 60px;
@@ -66,7 +60,6 @@ header .c1 {
 	margin: 0 auto;
 	display: inline-block;
 }
-
 header .c2 {
 	height: 50px;
 	width: 50px;
@@ -74,7 +67,6 @@ header .c2 {
 	margin: 0 auto;
 	display: inline-block;
 }
-
 header .c3 {
 	height: 40px;
 	width: 40px;
@@ -82,9 +74,6 @@ header .c3 {
 	margin: 0 auto;
 	display: inline-block;
 }
-
-
-
 header table .data {
 	width: 10%;
 }
@@ -111,11 +100,9 @@ header table .data {
 	width: 85%;
 	margin: 0 auto;
 }
-
 .subcat * {
 	text-align: left;
 }
-
 .subcat:last-of-type {
 	border-bottom: 0px;
 }
@@ -123,12 +110,4 @@ header table .data {
 #education .subcat {
 	position: relative;
 	top: 50px;
-}
-
-#arrow {
-	position: fixed;
-	bottom:5%;
-	height: 50px;
-	width: 50px;
-	opacity: .7;
 }
