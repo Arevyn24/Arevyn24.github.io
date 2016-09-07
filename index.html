@@ -1,115 +1,178 @@
 <!DOCTYPE html>
-
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+    <title>Samantha Shurie's Portfolio</title>
+		
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="style/size_position.css">
-		<link rel="stylesheet" type="text/css" href="style/scrollbar.css">
-		<link rel="stylesheet" type="text/css" href="style/font.css">
-		<link rel="stylesheet" type="text/css" href="style/color_scheme.css">	
+		<link href="css/helper.css" rel="stylesheet">
 		
-		<title>Samantha Shurie</title>
-	</head>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
 	
-	<body>
-		<section id="intro" class="pl_blue">
+		<div class="container">
 		
-			<div id="contact" onmouseover=showContact(); onmouseout=hideContact();>
-				<h2 id="text">Contact</h2>
-				<ul id="contactList">
-					<li><a href="https://www.facebook.com/samantha.shurie">Facebook</a></li>
-					<li><a href="https://www.linkedin.com/in/samantha-shurie">LinkedIn</a></li>
-					<li><a href="https://github.com/Arevyn24">GitHub</a></li>
-					<li><a href="https://www.hackerrank.com/sshurie">HackerRank</a></li>
-				</ul>	
-			</div>
-			
-			<header>
-				<table>
-				<tr>
-					<td class="data"><div  class="c3"></div></td>
-					<td class="data"><div class="c2"></div></td>
-					<td class="data"><div class="c1"></div></td>
-					<td><h1>Samantha Shurie</h1></td>
-					<td class="data"><div class="c1"></div></td>
-					<td class="data"><div class="c2"></div></td>
-					<td class="data"><div class="c3"></div></td>
-				</tr>
-				<tr>
-					<td colspan="7"><h2>Coding || Web Development</h2></td>
-					</tr>
-				</table>
+			<div class="row pl_blue" id="intro">
+				<div class="col-xs-12" id="intro_cols">
 				
-				<div id="info">
-				<p>Hello, and thanks for stopping by! This is my personal site that was built from scratch using HTML, CSS, and JavaScript, and is currently being hosted through GitHub Pages. Scroll down to read more or use the above links to contact me if you have any questions. The repository containing the source code for this website can found <a href="https://github.com/Arevyn24/Arevyn24.github.io">here</a> on GitHub.
-				</p>
-			</div><br><br>
-			</header>
-		</section>
-		
-		<section id="experience" class="lt_blue">
-			<div class="content">
-				<h3>Experience</h3><br>
-				<div class="subcat">
-					<h4>Position</h4>
-					<h5>Web Master, August 2016 - Present</h5><br>
-					<h4>Website</h4>
-					<h5><a href="http://www.the-fallen.net">The Fallen Trilogy Official Website</a></h5><br>
-					<h4>Description</h4>
-					<h5>As site manager my duties include making weekly posts and updates to the site and
-						handling front-end changes when requested by the author.</h5><br>
-				</div><br>
+					<div class="row text-center" id="nav">
+						<div class="col-xs-4 col-sm-2  col-sm-offset-3"><a href="#experience">Experience</a></div>
+						<div class="col-xs-4 col-sm-2"><a href="#education">Education</a></div>
+						<div class="col-xs-4 col-sm-2"><a href="#skills">Skills</a></div>
+					</div>
 				
-				<div class="subcat" >
-					<h4>Position</h4>
-					<h5>UI/UX Tester, August 2016 - Present</h5><br>
-					<h4>Company</h4>
-					<h5><a href="http://usertesting.com">UserTesting</a></h5><br>
-					<h4>Description</h4>
-					<h5>As a tester, I am given a website to visit and a specific set of tasks to complete by the site as
- 						I complete the assigned tasks.</h5><br>
-				</div><br>
-				
-			</div><br>
-		</section>
-		
-		<section id="education" class="dk_blue">
-			<div class="content">
-				<h3>Education</h3><br>
-				<div class="subcat">
-					<h4>Associate of Applied Science</h4>
-					<h5>Computer Information Systems - Programming for the Enterprise</h5><br>
-					<h4>College</h4>
-					<h5><a href="https://wccc.edu">Westmoreland County Community College</a>, 2016</h5><br>
-					<h4>Studied<br>
-					<h5>HTML & CSS, JavaScript, Java, C++, PHP, MySQL, Visual Basic, procedural programming,
-									object-oriented programming</h5>
-				</div><br>
-			</div>
-		</section>
-		
-		<section id="skills" class="lt_blue">
-			<div class="content">
-				<h3>Skills</h3><br><br>
-				<div class="subcat">
-					<h4>Languages & Frameworks</h4>
-					<h5>Java, JavaScript, HTML, CSS, PHP, MySQL, Visual Basic, C++, JQuery, AngularJS, Sass, 
-										Bootstrap</h5><br>
-					<h4>Applications</h4>
-					<h5>NetBeans, Visual Studio, JavaFX Scene Builder, Atom, CLion, Google Analytics, TexturePacker, Unity3D, 
-										PHPMyAdmin, GitHub desktop, Filezilla, SourceTree</h5><br>
-					<h4>Site Hosting</h4>
-					<h5>GoDaddy, GitHub Pages, WordPress, SiteBuilder</h5><br>
+					<div class="row text-center jumbotron" id="header">
+						<div class="col-xs-12">
+							<h1>Samantha Shurie<br>
+							<small>Software & Web Development</small></h1>
+							
+							<div class="row text-center" id="contact">
+								<div class="col-xs-6 col-sm-3 col-lg-2 col-lg-offset-2">
+									<a class="btn btn-lg btn-default"  href="https://www.linkedin.com/in/samantha-shurie">LinkedIn</a>
+								</div>
+								<div class="col-xs-6 col-sm-3 col-lg-2">
+										<a class="btn btn-lg btn-default" href="https://github.com/Arevyn24">GitHub</a>
+								</div>
+								<div class="col-xs-6 col-sm-3 col-lg-2">
+									<a class="btn btn-lg btn-default" href="https://www.hackerrank.com/sshurie">HackerRank</a>
+								</div>
+								<div class="col-xs-6 col-sm-3 col-lg-2">
+										<a class="btn btn-lg btn-default" href="https://www.facebook.com/samantha.shurie">Facebook</a>
+								</div>	
+							</div>
+							
+						</div>
+					</div>
+					
 				</div>
 			</div>
-		</section>
-		<footer id="pl_blue"></footer>
-		
-		<script src="contact.js"></script>
-	</body>
+			
+			
+			
+			<div class="row lt_blue" id="experience">
+				<div class="col-xs-12" id="experience_cols">
+				
+					<div class="row">
+						<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+							<h2>Experience</h2>
+						</div>
+					</div>
+				
+					<div class="row content">
+						<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 scroller">
+							<div class="row">
+								<div class="col-xs-12 text-justified">
+									<h3>Position</h3>
+									<h4>Webmaster, August 2016 - Present</h4>
+									<h3>Website</h3>
+									<h4><a href="http://www.the-fallen.net">The Fallen Trilogy Official Website</a></h4>
+									<h3>Description</h3>
+									<h4>As site manager my duties include making weekly posts and updates to the site and
+									handling front-end changes when requested by the author.</h4>
+								</div>
+							</div>
+						
+							<div class="divider"></div>
+							
+							<div class="row">
+								<div class="col-xs-12 text-justified">
+									<h3>Position</h3>
+									<h4>UI/UX Tester, August 2016 - Present</h4>
+									<h3>Company</h3>
+									<h4><a href="http://usertesting.com">UserTesting</a></h4>
+									<h3>Description</h3>
+									<h4>As a tester, I am given a website to visit and a specific set of tasks to complete by the site as
+													I complete the assigned tasks.</h4><br>
+								</div>
+							</div>
+							
+						</div>	
+					</div>
+
+				</div>
+			</div>
+			
+			
+			
+			<div class="row dk_blue" id="education">
+				<div class="col-xs-12 dk_blue" id="education_cols">
+				
+					<div class="row">
+						<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+							<h2>Education</h2>
+						</div>
+					</div>
+				
+					<div class="row content">
+						<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 scroller">
+							
+							<div class="row">
+								<div class="col-xs-12">
+									<h3>Associate of Applied Science</h3>
+									<h4>Computer Information Systems - Programming for the Enterprise</h4><br>
+									<h3>College</h3>
+									<h4><a href="https://wccc.edu">Westmoreland County Community College</a>, 2016</h4><br>
+									<h3>Studied</h3>
+									<h4>HTML & CSS, JavaScript, Java, C++, PHP, MySQL, Visual Basic, procedural programming,
+													object-oriented programming</h4>
+								</div>
+							</div>
+							
+						</div>	
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			
+			<div class="row lt_blue" id="skills">
+				<div class="col-xs-12" id="skills_cols">
+					<div class="row">
+						<div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+							<h2>Skills</h2>
+						</div>
+					</div>
+					
+					<div class="row content">
+						<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 scroller">
+							
+							<div class="row">
+								<div class="col-xs-12">
+									<h3>Languages & Frameworks</h3>
+									<h4>Java, JavaScript, HTML, CSS, PHP, MySQL, Visual Basic, C++, JQuery, AngularJS, Sass, 
+										Bootstrap</h4><br>
+									<h3>Applications</h3>
+									<h4>NetBeans, Visual Studio, JavaFX Scene Builder, Atom, CLion, Google Analytics, TexturePacker, Unity3D, 
+										PHPMyAdmin, GitHub desktop, Filezilla, SourceTree</h4><br>
+									<h3>Site Hosting</h3>
+									<h4>GoDaddy, GitHub Pages, WordPress, SiteBuilder</h4><br>
+								</div>
+							</div>
+							
+						</div>	
+					</div>
+					
+					
+				</div>
+			</div>
+			
+		</div>
+			
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
